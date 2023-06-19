@@ -1,0 +1,32 @@
+.header-nav {
+  margin: 0 auto;
+  padding: 0 1rem;
+  margin-top: -15px;
+  padding-bottom: 40px;
+}
+
+.header-nav ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  padding: 0;
+}
+
+.header-nav li {
+  padding: 0 1rem;
+}
+
+.nav-title{
+  color: grey;
+  font-variant: small-caps;
+  letter-spacing: .2rem;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.nav-title:hover{
+  color: black;
+  cursor: pointer;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+}

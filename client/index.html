@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ade-board</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Oswald:wght@200&family=Roboto+Condensed&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="stylesheet" href="/css/navigation.css">
+  <link rel="stylesheet" href="/css/pin.css">
+
+  <script src="/js/initialize.js"></script>
+  <script defer src="/js/components/add_pin.js"></script>
+  <script defer src="/js/components/pin_list.js"></script>
+  <script defer src="/js/components/sign_up.js"></script>
+  <script defer src="/js/components/login.js"></script>
+</head>
+
+<body>
+  <h1 class="main-title">Adelaide anon.</h1>
+  <nav class="header-nav">
+    <ul>
+      <li class="nav-title" onClick="renderAddPin()">write a review</li>
+      <li class="nav-title" onClick="renderPinList()">home</li>
+      <li class="nav-title" onClick="renderSignUp()">sign up</li>
+      <li class="nav-title" onClick="renderLogin()">login</li>
+    </ul>
+  </nav>
+
+  <main id="page" class="content"></main>
+</body>
+
+</html>
